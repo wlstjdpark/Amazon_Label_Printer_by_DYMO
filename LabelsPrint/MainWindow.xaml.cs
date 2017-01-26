@@ -1,6 +1,5 @@
 ﻿using Microsoft.Win32;
 using System;
-//using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;

@@ -76,8 +76,8 @@
     <Reference Include="DYMO.Label.Framework">
       <HintPath>.\DYMO.Label.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Magick.NET-Q8-x64">
-      <HintPath>.\Magick.NET-Q8-x64.dll</HintPath>
+    <Reference Include="Magick.NET-Q8-AnyCPU">
+      <HintPath>.\Magick.NET-Q8-AnyCPU.dll</HintPath>
     </Reference>
     <Reference Include="ReachFramework" />
     <Reference Include="System" />
