@@ -128,11 +128,18 @@ namespace LabelsPrint
         }
 
         private void UpdatedPrintersComboBoxSelection()
-        {
-            LabelManager.SelectedPrinter = (PrintersComboBox.SelectedItem ?? "").ToString();
-            OpenFileButton.IsEnabled = PrintersComboBox.SelectedItem != null;
+        {            
+            var printer = PrintersComboBox.SelectedItem as DYMO.Label.Framework.ILabelWriterPrinter;            
+            OpenFileButton.IsEnabled = printer != null;
             UpdateStatusText(OpenFileButton.IsEnabled ? "Click the \"File Open\"" : "Printer is not selected..",
-                OpenFileButton.IsEnabled ? Colors.RoyalBlue : Colors.Red);            
+                OpenFileButton.IsEnabled ? Colors.RoyalBlue : Colors.Red);
+
+            if (printer == null)
+            {
+                return;
+            }
+
+            LabelManager.SelectedPrinter = printer.Name;
         }
     }
 }

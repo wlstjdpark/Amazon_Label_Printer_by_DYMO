@@ -70,14 +70,12 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DYMO.DLS.Runtime">
-      <HintPath>.\DYMO.DLS.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="DYMO.Label.Framework">
+    <Reference Include="DYMO.Label.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5426002a38745af9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>.\DYMO.Label.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Magick.NET-Q8-AnyCPU">
-      <HintPath>.\Magick.NET-Q8-AnyCPU.dll</HintPath>
+    <Reference Include="Magick.NET-Q8-x64">
+      <HintPath>.\Magick.NET-Q8-x64.dll</HintPath>
     </Reference>
     <Reference Include="ReachFramework" />
     <Reference Include="System" />
