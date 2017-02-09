@@ -3,6 +3,10 @@ when products send to amazon fba by dymo label printer (small30334, 4x10)
 
 only 64bit usable
 
+# it needs to install ghostscript before execution
+https://drive.google.com/drive/folders/0BzYqlroPQTTFeGlnUVNVR09BZzA
+
+
 ![slide1](/images/slide1.PNG)
 ![slide2](/images/slide2.PNG)
 ![slide3](/images/slide3.PNG)
